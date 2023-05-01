@@ -5,6 +5,8 @@ import { Platform } from "./usePlatforms";
 
 const apiClient = new APIClient<Game>('/games');
 
+const moses = "moses";
+
 export interface Game {
   id: number;
   name: string;
